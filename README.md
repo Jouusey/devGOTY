@@ -1,0 +1,2 @@
+# devGOTY
+Simulador de vida.
