@@ -1,0 +1,134 @@
+.app-container{
+    
+    height: 100vh;
+    background-color: rgb(43, 39, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 410px rgb(19, 16, 15);
+
+}
+
+.div-top{ 
+    height: 30%;
+    width: 100%;
+    background-color: rgb(133, 116, 82);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: inset 0px 0px 410px rgb(19, 16, 15);
+}
+
+.div-bichinho{
+    
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 410px rgb(19, 16, 15);
+}
+.div-atributos{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.atributos-top{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.div-estavivo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    border: none;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255);
+    color: rgb(255, 243, 210);
+    user-select: none;
+
+    
+}
+.atributos-bottom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.div-atividades{ 
+    height: 70%;
+    width: 100%;
+    background-color: rgb(43, 39, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 410px rgb(19, 16, 15);
+}
+
+.perguntas{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 39, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: inset 0px 0px 410px rgb(19, 16, 15);
+}
+
+
+.app-btn{
+    width: 16%;
+    margin: 0.5%;
+    height: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(202, 148, 78);
+    font-size: 30px;
+    border: none;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255);
+    color: rgb(255, 243, 210);
+    user-select: none;
+    border-radius: 3px;
+
+
+
+}
+.app-btn:focus-visible{
+    outline-width: 0px;
+}
+
+.app-btn-foguete{
+    width: 18%;
+    height: 10%;
+    opacity: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(197, 164, 120);
+    font-size: 30px;
+    border: none;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255);
+    color: rgb(255, 243, 210);
+    user-select: none;
+    border-radius: 3px;
+}
+.app-titulo{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 243, 210);
+    font-size: 40px;
+    text-shadow:  0px 0px 5px white;
+    user-select: none;
+    margin: 0.5%;
+    
+}
